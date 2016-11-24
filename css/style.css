@@ -1,3 +1,94 @@
+* {
+	box-sizing: border-box;
+}
+
 .card-placeholder {
-	background: lightblue;
+	background: #0277BD;
+}
+
+.column-title {
+  text-align: center;
+}
+
+h1 {
+	color: #ffffff;
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 0 0 12px #0277BD;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+#board {
+	width: 100%;
+}
+
+.column-container {
+	margin: 0 auto;  
+	width: 60%;
+}
+
+.create-column {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #039BE5;
+	color: white ;
+	width: 180px;
+	height: 70px;
+	font-size: 22px;
+	border-radius: 10px;
+	cursor: pointer;
+	text-shadow:0 0 6px black;
+}
+
+.card-placeholder { 
+	background: #fff; 
+	padding: 10px;
+	margin: 10px;
+}
+
+.column {
+	width: 30%;
+	float: left;
+	margin: 1%;
+	padding: 10px;
+	background-color: #4FC3F7;
+	color: #fff;
+	text-shadow:0 0 6px black;
+	letter-spacing: 3px;
+}
+
+.add-card {
+	background-color: #039BE5;
+	border: 1px;
+	border-radius: 10px;
+	width: 120px;
+	height: 24px;
+	color: #fff;;
+	font-size: 16px;
+	cursor: pointer;
+	text-shadow: 0 0 3px black;
+}
+
+.btn-delete {
+ 	background-color: #039BE5	border: 2px;
+ 	border-radius: 10px;
+ 	width: 40px;
+ 	height: 24px;
+ 	color: #fff;;
+ 	font-size: 16px;
+ 	margin: 10px;
+ 	cursor: pointer;
+ 	text-shadow:0 0 6px black;
+}
+
+.column-card-list {
+ 	background-color: #E1F5FE;
+ 	color: black;
+ 	text-shadow: 0 0 6px white;
+ 	font-size: 16px;
+  	letter-spacing: 1px;
+ 	overflow: scroll;
 }
